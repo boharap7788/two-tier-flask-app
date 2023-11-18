@@ -38,6 +38,10 @@ Before you begin, make sure you have the following installed:
    MYSQL_PASSWORD=your_password
    MYSQL_DB=your_database
    ```
+   NOTES ::::::::::::::::::::::
+   
+   docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=test@123 -e MYSQL_DATABASE=testdb -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin mysql:latest
+
 
 ## Usage
 
